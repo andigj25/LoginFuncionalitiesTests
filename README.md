@@ -17,6 +17,15 @@ TC_3: I as a user should be denied login with wrong username and shown the follo
 
 ## Running the tests
 
+By default the project supports running tests on Google Chrome version 106, as the project uses ChromeDriver version 106.0.5249.61.
+
+To change the current version of the drivers inside the project you may visit the following page and download the version of ChromeDriver that matches the version of Google Chrome installed on your operating system.
+
+- [ ] [ChromeDriver for Google Chrome](https://chromedriver.chromium.org/downloads)
+
+Then replace the file found in the following directory:  
+src > main > resources > chromedriver.exe
+
 The tests are written in a single class and can be found at the following directory:
 
 src > test > java > LoginFunctionalityTests
